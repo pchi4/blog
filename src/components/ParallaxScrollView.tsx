@@ -49,7 +49,7 @@ export default function ParallaxScrollView({
   });
 
   return (
-    <ThemedView style={styles.container}>
+    <ThemedView>
       <Animated.ScrollView ref={scrollRef} scrollEventThrottle={16}>
         <Animated.View
           style={[
